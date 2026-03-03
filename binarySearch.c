@@ -12,8 +12,7 @@ int binarySearch(int arr[],int n, int key)
 		else
 		     high=mid-1;
     }
-
-			return -1;
+return -1;
 }
 	int main()
 	{
@@ -33,3 +32,4 @@ int binarySearch(int arr[],int n, int key)
 			printf("Element not found\n");
 		return 0;
 }
+
